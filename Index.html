@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form - Hajra Digital Academy</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; background: #f4f7f6; padding: 20px; direction: rtl; }
+        .form-card { background: white; padding: 25px; border-radius: 15px; border-top: 10px solid #2c3e50; box-shadow: 0 10px 20px rgba(0,0,0,0.1); max-width: 450px; margin: auto; }
+        h2 { color: #2c3e50; text-align: center; margin-bottom: 5px; }
+        p.subtitle { text-align: center; color: #666; font-size: 14px; margin-bottom: 20px; }
+        label { display: block; margin-top: 10px; font-weight: bold; color: #333; }
+        input, select { width: 100%; padding: 12px; margin: 8px 0; border: 1px solid #ddd; border-radius: 8px; box-sizing: border-box; font-size: 16px; text-align: right; }
+        button { background: #2c3e50; color: white; border: none; padding: 15px; width: 100%; border-radius: 8px; cursor: pointer; font-size: 18px; font-weight: bold; margin-top: 20px; }
+        button:hover { background: #1a252f; }
+    </style>
+</head>
+<body>
+
+<div class="form-card">
+    <h2>ہاجرہ ڈیجیٹل اکیڈمی</h2>
+    <p class="subtitle">داخلہ فارم (Admission Form 2026)</p>
+    
+    <form action="https://script.google.com/macros/s/AKfycby0Nt1qbc94wLjCcpkshSprSXnN9KGprJirBu6IxP_HIDh42t7alKMoaiue14Gws8FG/exec" method="POST">
+        
+        <label>طالبہ کا نام:</label>
+        <input type="text" name="name" placeholder="نام لکھیں" required>
+        
+        <label>سرپرست کا نام:</label>
+        <input type="text" name="guardian" placeholder="والد یا سرپرست کا نام" required>
+        
+        <label>مطلوبہ درجہ:</label>
+        <select name="class" required>
+            <option value="">درجہ منتخب کریں</option>
+            <option value="Edadia">اعدادیہ (Edadia)</option>
+            <option value="Oola">اولیٰ (Oola)</option>
+            <option value="Sania">ثانیہ (Sania)</option>
+            <option value="Salisa">ثالثہ (Salisa)</option>
+            <option value="Rabia">رابعہ (Rabia)</option>
+            <option value="Khamisa">خامسہ (Khamisa)</option>
+            <option value="Sadesa">سادسہ (Sadesa)</option>
+        </select>
+        
+        <label>واٹس ایپ نمبر:</label>
+        <input type="text" name="mobile" placeholder="9955734404" required>
+        
+        <button type="submit">فارم جمع کریں</button>
+    </form>
+</div>
+
+</body>
+</html>
+
